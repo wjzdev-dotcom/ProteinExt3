@@ -1,0 +1,45 @@
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Logs and temporary files
+*.log
+tmp/
+tmp_*
+mmseqs_tmp/
+mmseqs_tmp2/
+failed_ids.txt
+
+# Large model files
+*.pt
+*.pth
+*.ckpt
+*.tar.gz
+*.rar
+*.zip
+
+# Large generated artifacts
+*.fasta
+*.fa
+*.pkl
+*.npz
+
+# Large prediction outputs
+comparison/predictions/*.tsv
+
+# Environment
+.env
+.venv/
+venv/
+conda-meta/
+
+# Secrets
+*secret*
+*.pem
+*.key
